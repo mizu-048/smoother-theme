@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600&family=Work+Sans:wght@400;500;600;700&display=swap");
 .theme-dark, .theme-light {
   --theme-version: none;
-  --header-primary: #ffffff;
+  --header-primary: #cccccc;
   --header-secondary: #e6e6e6;
-  --text-normal: #ffffff;
+  --text-normal: #cccccc;
   --text-muted: #909090;
   --text-link: #4cd9a4;
   --text-link-low-saturation: #e6e6e6;
   --text-positive: #4cd9a4;
   --text-warning: #faa483;
   --text-danger: #fb7c7c;
-  --text-brand: #ffffff;
+  --text-brand: #cccccc;
   --text-alt: #151515;
-  --interactive-normal: #ffffff;
+  --interactive-normal: #cccccc;
   --interactive-hover: #e6e6e6;
   --interactive-active: #d1d1d1;
   --interactive-muted: #909090;
@@ -27,7 +27,7 @@
   --background-mobile-secondary: #1b1b1b;
   --background-modifier-hover: rgba(230, 230, 230, 0.1);
   --background-modifier-active: rgba(230, 230, 230, 0.7);
-  --background-modifier-selected: #e6e6e6;
+  --background-modifier-selected: #404040;
   --background-modifier-accent: rgba(230, 230, 230, 0.2);
   --info-positive-text: #e6e6e6;
   --info-warning-text: #e6e6e6;
@@ -40,7 +40,7 @@
   --scrollbar-thin-track: transparent;
   --scrollbar-auto-thumb: rgba(230, 230, 230, 0.2);
   --scrollbar-auto-track: rgba(230, 230, 230, 0.06);
-  --scrollbar-auto-scrollbar-color-thumb: #ffffff;
+  --scrollbar-auto-scrollbar-color-thumb: #404040;
   --scrollbar-auto-scrollbar-color-track: transparent;
   --elevation-stroke: 0 0 0 1px rgba(230, 230, 230, 0.06);
   --box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 4px 2px;
@@ -227,7 +227,8 @@
   color: #151515;
 }
 .sidebar_ded4b5 .content-2a4AW9 .selected-3veCBZ, .sidebar__9e3e2 .content-2a4AW9 .selected-3veCBZ {
-  background-color: #ffffff;
+  background-color: #404040; /* Changed from #ffffff */
+  color: #e6e6e6; /* Ensuring text is readable */
 }
 .sidebar_ded4b5 .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG:active .content-1gYQeQ a *, .sidebar_ded4b5 .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG:active .content-1gYQeQ .children-1MGS9G *, .sidebar__9e3e2 .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG:active .content-1gYQeQ a *, .sidebar__9e3e2 .content-2a4AW9 .containerDefault-YUSmu3 .wrapper-NhbLHG:active .content-1gYQeQ .children-1MGS9G * {
   color: #151515;
@@ -1320,3 +1321,4 @@ button {
 }
 
 /*# sourceMappingURL=custom.css.map */
+
